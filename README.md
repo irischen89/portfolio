@@ -1,53 +1,18 @@
 # portfolio
-<!DOCTYPE html>
-<html lang="en">
+$ git add index.html
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/photo.css">
-		<title>作品集</title>
-	</head>
+$ git commit -m "add index"
+[master (root-commit) 80450b2] add index
+ 1 file changed, 10 insertions(+)
+ create mode 100644 index.html
+ $ git remote add origin https://github.com/eddiekao/eddiekao.github.io.git
 
-	<body>
-		<div class="container">
-			<div class="banner">
-				<div class="text">I-HSIN CHEN 作品集</div>
-			</div>
-			<div class="box">
-				<img src="https://ihsinchendesign.files.wordpress.com/2022/06/ui2.png?w=580&zoom=2" alt="">
-				<div class="title">紀錄APP UI/UX</div>
-				<div class="year">2022</div>
-				<a href="p1.html">
-					<div class="button">more</div>
-				</a>
-			</div>
-			<div class="box">
-				<img src="https://ihsinchendesign.files.wordpress.com/2021/12/ui.png?w=768" alt="">
-				<div class="title">禮品購物 APP UI</div>
-				<div class="year">2021</div>
-				<a href="p2.html">
-					<div class="button">more</div>
-				</a>
-			</div>
-			<div class="box">
-				<img src="https://ihsinchendesign.files.wordpress.com/2022/06/mosterapp2.png?w=860" alt="">
-				<div class="title">遊戲學英文單字APP</div>
-				<div class="year">2022</div>
-				<a href="p3.html">
-					<div class="button">more</div>
-				</a>
-			</div>
-			
-			<div class="box">
-				<img src="https://ihsinchendesign.files.wordpress.com/2022/06/html.png" alt="">
-				<div class="title">html&css練習</div>
-				<div class="year">2022</div>
-				<a href="p4.html">
-					<div class="button">more</div>
-				</a>>
-			</div>
-		</div>
-	</body>
-
-</html>
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/irischen89/portfolio.github.io.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
