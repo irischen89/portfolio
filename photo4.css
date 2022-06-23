@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:700');
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	min-height: 100vh;
+	background-image: url(https://lh3.googleusercontent.com/VwYbKpJc8JSAAQ0v4pRCpQJiOcM3g7w26Ml-_5sEJQRZmJRqcUbOWd8D3f8afK5bEPUEWAfY67xzftwsqjX23cHOx1AsahwS0W3LKZ5-INSJm98uCiSp1QxifwDHwJzg=w1280);
+	background-size: cover;
+}
+.container{
+	max-width: 680px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: left;
+	font-size: 16px;
+	color: #876D5A;
+	left: 800px;
+}
+/*.banner{
+	width: 100%;
+	height: 300px;
+	background-image: url(./images/圖片1.jpg);
+	background-size: cover;
+	margin-bottom: 5px;
+	background-position: center bottom;
+	border-radius: 10px;
+	position: relative;
+}*/
+.banner .text{
+	position: absolute;
+	font-size: 70px;
+	color: #fff;
+	left: 10px;
+	bottom: 10px;
+}
+.box{
+	position: relative;
+	width: 330PX;
+	height: 220px;
+	background-color: #000;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;/*併排*/
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	text-align: left;
+}
+.box img{
+	height: 100%;
+	opacity:1;
+	position: absolute;
+}
+
+.button{
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	background-color: #D6D6AD;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50px;
+	user-select: none;
+	cursor: pointer;
+	right: 10px;
+	top: 10px;
+	color: #fff;
+	border: 0px solid #fff;
+	transition: all 0.5s;
+	transform: translate(50%, -50%);
+	margin-right: 90px;
+	margin-top: 30px;
+
+}
+.button:hover{
+	font-size: 40px;
+	width: 160px;
+	height: 50px;
+	background-color: #A98B73;
+	border: 5px solid #fff;
+}
+
+.buttonn{
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	background-color: #D6D6AD;
+	font-size: 21px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50px;
+	user-select: none;
+	cursor: pointer;
+	right: 10px;
+	top: 10px;
+	color: #fff;
+	border: 0px solid #fff;
+	transition: all 0.5s;
+	transform: translate(50%, -50%);
+	margin-right: 430px;
+	margin-top: 252px;
+
+}
+.buttonn:hover{
+	background-color: #A98B73;
+}
+
+
